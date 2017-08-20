@@ -1,0 +1,12 @@
+<div  nz-col [nzMd]="5" [nzOffset]="4" >
+  <ul nz-menu [nzMode]="'inline'" class="leftNav" >
+
+    <li nz-submenu *ngFor="let bigli of nav">
+      <span title><i class="anticon " ngClass="{{bigli.icon}}" ></i> {{bigli.title}}</span>
+      <ul>
+        <li nz-menu-item *ngFor="let smallLi of bigli.children"><a routerLink="{{smallLi.route}}" >{{smallLi.name}}</a></li>
+      </ul>
+    </li>
+
+  </ul>
+</div>

@@ -1,0 +1,29 @@
+h1{
+  line-height: 44px;
+  margin: 28px 0 34px;
+  color: #333333;
+  font-size: 32px;
+  font-weight: normal;
+}
+h4{
+  line-height: 24px;
+  color: #8e8e8e;
+  font-size: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+.inforArea{
+  margin-top:20px;
+}
+.inforArea p,
+.inforArea span{
+  display: inline-block;
+}
+.inforArea div{
+  margin:10px auto;
+}
+.inforArea div:after{
+  content: '';
+  display: block;
+  clear: both;
+}

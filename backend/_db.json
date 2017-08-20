@@ -1,0 +1,191 @@
+{
+  "user": [
+    {
+      "createDate": "2017-8-16"
+    },
+    {
+      "createDate": "2017-8-16"
+    },
+    {
+      "createDate": "2017-8-16"
+    },
+    {
+      "createDate": "2017-8-16"
+    },
+    {
+      "createDate": "2017-8-16"
+    },
+    {
+      "createDate": "2017-8-16"
+    },
+    {
+      "createDate": "2017-8-16"
+    },
+    {
+      "createDate": "2017-8-16"
+    },
+    {
+      "email": "123@14",
+      "regPassword": "12121212",
+      "checkPassword": "12121212",
+      "agree": false,
+      "createDate": "2017-8-16"
+    },
+    {
+      "email": "77507662@11",
+      "regPassword": "8ce87b8ec346ff4c80635f667d1592ae",
+      "checkPassword": "12121212",
+      "agree": false,
+      "createDate": "2017-8-16"
+    },
+    {
+      "email": "12@1",
+      "regPassword": "8ce87b8ec346ff4c80635f667d1592ae",
+      "checkPassword": "12121212",
+      "agree": false,
+      "createDate": "2017-8-17"
+    },
+    {
+      "email": "775072@1",
+      "regPassword": "8ce87b8ec346ff4c80635f667d1592ae",
+      "checkPassword": "12121212",
+      "agree": false,
+      "createDate": "2017-8-17"
+    },
+    {
+      "email": "123@144",
+      "regPassword": "25d55ad283aa400af464c76d713c07ad",
+      "checkPassword": "12345678",
+      "agree": false,
+      "createDate": "2017-8-17"
+    },
+    {
+      "email": "775076662@qq.com",
+      "regPassword": "25d55ad283aa400af464c76d713c07ad",
+      "checkPassword": "12345678",
+      "agree": true,
+      "createDate": "2017-8-17"
+    },
+    {
+      "email": "775076660@qq.com",
+      "regPassword": "25d55ad283aa400af464c76d713c07ad",
+      "checkPassword": "12345678",
+      "agree": true,
+      "createDate": "2017-8-17"
+    },
+    {
+      "email": "123@1",
+      "regPassword": "25d55ad283aa400af464c76d713c07ad",
+      "checkPassword": "12345678",
+      "agree": false,
+      "createDate": "2017-8-17"
+    },
+    {
+      "email": "77507@11",
+      "regPassword": "8ce87b8ec346ff4c80635f667d1592ae",
+      "checkPassword": "12121212",
+      "agree": false,
+      "createDate": "2017-8-17"
+    },
+    {
+      "email": "775076662@163.com",
+      "regPassword": "91aaf94107ffdf9686dcc32e71ee46e3",
+      "checkPassword": "s12345678",
+      "agree": true,
+      "createDate": "2017-8-17"
+    },
+    {
+      "email": "18819475830@163.com",
+      "regPassword": "c35d2b6819bdb4a7449f39f64c8acd9a",
+      "checkPassword": "keepgoing",
+      "agree": false,
+      "createDate": "2017-8-17"
+    }
+  ],
+  "player": [
+    {
+      "playName": "1",
+      "age": "2",
+      "birthDay": "2017-08-10T16:00:00.000Z",
+      "height": "",
+      "weight": "",
+      "status": "SG",
+      "sex": "man",
+      "comment": "2",
+      "id": "f3c85e50-8567-11e7-aae8-2b57a9e4bc30",
+      "createDate": "2017-8-20"
+    },
+    {
+      "playName": "213",
+      "age": "2",
+      "birthDay": "2017-07-31T16:00:00.000Z",
+      "height": "",
+      "weight": "",
+      "status": "PG",
+      "sex": "man",
+      "comment": "2",
+      "id": "0594f2b0-8568-11e7-aae8-2b57a9e4bc30",
+      "createDate": "2017-8-20"
+    },
+    {
+      "playName": "111111111",
+      "age": "22",
+      "birthDay": "2017-08-20T05:25:54.270Z",
+      "height": null,
+      "weight": null,
+      "status": "SG",
+      "sex": "man",
+      "comment": "22",
+      "id": "0b351290-8568-11e7-aae8-2b57a9e4bc30",
+      "createDate": "2017-8-20"
+    },
+    {
+      "playName": "124214",
+      "age": "123",
+      "birthDay": "2017-08-08T16:00:00.000Z",
+      "height": null,
+      "weight": null,
+      "status": "SG",
+      "sex": "man",
+      "comment": "123",
+      "id": "0f240000-8568-11e7-aae8-2b57a9e4bc30",
+      "createDate": "2017-8-20"
+    },
+    {
+      "playName": "郭艾伦",
+      "age": "2",
+      "birthDay": "2017-08-07T16:00:00.000Z",
+      "height": null,
+      "weight": null,
+      "status": "SG",
+      "sex": "man",
+      "comment": "2",
+      "id": "15708c80-8568-11e7-aae8-2b57a9e4bc30",
+      "createDate": "2017-8-20"
+    },
+    {
+      "playName": "12321",
+      "age": "213",
+      "birthDay": "2017-08-16T16:00:00.000Z",
+      "height": null,
+      "weight": null,
+      "status": "SG",
+      "sex": "man",
+      "comment": "213",
+      "id": "19a8b7f0-8568-11e7-aae8-2b57a9e4bc30",
+      "createDate": "2017-8-20"
+    },
+    {
+      "playName": "12",
+      "age": "213",
+      "birthDay": "2017-07-31T16:00:00.000Z",
+      "height": null,
+      "weight": null,
+      "status": "SG",
+      "sex": "man",
+      "comment": "213",
+      "id": "1f998fe0-8568-11e7-aae8-2b57a9e4bc30",
+      "createDate": "2017-8-20"
+    }
+  ]
+}
