@@ -1,28 +1,20 @@
 # Basketball
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.5.
+1. 确保电脑已经安装了`nodejs`,`npm`,全局`angular/cli`。
+2. 克隆项目到本地文件夹。
+3. 进入backend文件夹，运行`npm install`。
+4. 返回上级目录，运行`npm install`。（推荐配置好淘宝镜像再install）
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. 以上步骤安装好后，命令模式（有编辑器的话直接用编辑器，如vscode，WebStorm，使用编辑器的命令行会更好），进入backend，运行`node app.js`，
+出现`server is running at ', 5000, dbfile`,表示后台服务开启。
+2. 返回上级目录，命令模式，运行`npm start`，没有出现错误表示项目运行成功。
+3. 打开网页输入`http://localhost:4200`。
+4. 注册账号，登陆。
 
-## Code scaffolding
+## 项目介绍
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1. 架手脚：angular/cli 。
+2. 后端使用Json-serve模拟api，用于angular2的Http请求并放回数据。
+3. 使用NG-ZORRO当作UI组件库，感谢蚂蚁金服，感谢阿里云。[NG-ZORRO](https://ng.ant.design/#/components/tag)
