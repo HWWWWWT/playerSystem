@@ -9,6 +9,7 @@ import {RegisterService} from '../service/register.service';
 import {HttpModule} from '@angular/http';
 import {LoginService} from "../service/login.service";
 import {UserService} from "../service/user.service";
+import {CookieService} from "angular2-cookie/core";
 
 @NgModule({
   imports: [
@@ -20,7 +21,7 @@ import {UserService} from "../service/user.service";
     LoginRoutingModule
   ],
   declarations: [LoginComponent, RegisterComponent],
-  providers: [RegisterService, LoginService, UserService]
+  providers: [RegisterService, LoginService, UserService, CookieService]
 
 })
 export class LoginModule { }

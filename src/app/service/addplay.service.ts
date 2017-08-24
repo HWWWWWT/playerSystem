@@ -43,7 +43,7 @@ export class AddplayService {
     const headers = new Headers();
     headers.append('Content-Type', 'application/json');
 
-    return this._http.post(SITE_HOST_URL+ 'player/update/', body, headers);
+    return this._http.post(SITE_HOST_URL + 'player/update/', body, headers)
     // return this._http.get(SITE_HOST_URL+ 'play/update/').map(this.extractData).catch(this.handleError);
   }
 }

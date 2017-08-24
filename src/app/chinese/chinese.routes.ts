@@ -2,6 +2,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {NgModule} from '@angular/core';
 import { ChineseComponent} from './chinese.component';
 import { ChineseIndexComponent} from './chinese-index/chinese-index.component';
+
 const chineseRoutes: Routes = [
   { path: '' , component: ChineseComponent,
   children: [

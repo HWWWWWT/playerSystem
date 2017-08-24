@@ -2,23 +2,23 @@
   <div nz-col [nzMd]="6" >
     <form nz-form [formGroup]="validateForm" class="login-form" (ngSubmit)="_loginForm()">
       <div nz-form-item>
-        <div nz-form-control [nzValidateStatus]="validateForm.controls.userName" nzHasFeedback>
-          <nz-input formControlName="userName" [nzPlaceHolder]="'Username'" [nzSize]="'large'">
+        <div nz-form-control [nzValidateStatus]="validateForm.controls['userName']" nzHasFeedback>
+          <nz-input #userName formControlName="userName" [nzPlaceHolder]="'Username'" [nzSize]="'large'" (change)="pswCom(validateForm.controls['userName'].value)">
             <ng-template #prefix>
               <i class="anticon anticon-user"></i>
             </ng-template>
           </nz-input>
-          <div nz-form-explain *ngIf="validateForm.controls.userName.dirty&&validateForm.controls.userName.hasError('required')">Please input your username!</div>
+          <div nz-form-explain *ngIf="validateForm.controls['userName'].dirty&&validateForm.controls['userName'].hasError('required')">Please input your username!</div>
         </div>
       </div>
       <div nz-form-item>
-        <div nz-form-control [nzValidateStatus]="validateForm.controls.password" nzHasFeedback>
+        <div nz-form-control [nzValidateStatus]="validateForm.controls['password']" nzHasFeedback>
           <nz-input formControlName="password" [nzType]="'password'" [nzPlaceHolder]="'Password'" [nzSize]="'large'">
             <ng-template #prefix>
               <i class="anticon anticon-lock"></i>
             </ng-template>
           </nz-input>
-          <div nz-form-explain *ngIf="validateForm.controls.password.dirty&&validateForm.controls.password.hasError('required')">Please input your Password!</div>
+          <div nz-form-explain *ngIf="validateForm.controls['password'].dirty&&validateForm.controls['password'].hasError('required')">Please input your Password!</div>
         </div>
       </div>
       <div nz-form-item>
@@ -29,7 +29,7 @@
           <a class="login-form-forgot" class="login-form-forgot">Forgot password</a>
           <button nz-button class="login-form-button" [nzType]="'primary'" [nzSize]="'large'">Log in</button>
           Or
-          <a (click)="toRegister()">register now!</a>
+          <a (click)="toRegister()" >register now!</a>
         </div>
       </div>
     </form>

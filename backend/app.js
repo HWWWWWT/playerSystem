@@ -70,14 +70,14 @@ res.json({'success':true, data:player})
 //根据id获取球员
 server.get('/player/:id', (req, res) => {
   const player = db('player').find({id: req.params.id});
-  console.log(player);
   res.json({'success':true, data:player})
 
 })
 
 //更新已有球员
 server.post('/player/update', (req, res) => {
-  const item = req.value;
+  const item = req.body;
+  console.log(item)
 db('player').chain().find({id:item.id}).assign(item).value();
 res.json({'success':true, data:item})
 })

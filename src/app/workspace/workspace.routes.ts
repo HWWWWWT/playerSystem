@@ -1,6 +1,7 @@
 import {RouterModule, Routes} from '@angular/router';
 import {NgModule} from '@angular/core';
 import {WorkspaceComponent} from './workspace.component';
+import {AuthGuard} from '../service/auth-guard.service';
 
 const workspaceRoutes: Routes = [
   { path: '' , component: WorkspaceComponent,

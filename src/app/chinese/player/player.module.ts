@@ -2,21 +2,22 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {SharedModule} from '../../shared/shared/shared.module';
 import {PlayerComponent} from './player.component';
-import {playerRoutes} from './player.routes';
+import {PlayRouting} from './player.routes';
 import {AddplayService} from '../../service/addplay.service';
 import {birthdayPipe} from './birthday.pipe';
-import {RouterModule} from '@angular/router';
 import {NzMessageService} from 'ng-zorro-antd/src/release/message/nz-message.service';
 import { PlayerdetailComponent } from './playerdetail/playerdetail.component';
-import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { PlayerListComponent } from './player-list/player-list.component';
+import { ResolveGuard} from './resolve.guard';
+import {CanDeactivateGuard} from './candeactivate.guard';
 
 @NgModule({
   imports: [
     CommonModule,
     SharedModule,
-    RouterModule.forChild(playerRoutes)
+    PlayRouting
   ],
-  declarations: [ PlayerComponent, birthdayPipe, PlayerdetailComponent],
-  providers: [AddplayService, NzMessageService]
+  declarations: [ PlayerComponent, birthdayPipe, PlayerdetailComponent, PlayerListComponent],
+  providers: [AddplayService, NzMessageService, ResolveGuard, CanDeactivateGuard]
 })
 export class PlayerModule { }

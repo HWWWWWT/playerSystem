@@ -7,6 +7,8 @@ import {SharedModule} from '../shared/shared/shared.module';
 import { ChineseIndexComponent } from './chinese-index/chinese-index.component';
 import {AddplayService} from '../service/addplay.service';
 import { ChineseleftnavComponent } from './chineseleftnav/chineseleftnav.component';
+import {UserService} from "../service/user.service";
+import {AuthGuard} from "../service/auth-guard.service";
 
 @NgModule({
   imports: [
@@ -16,6 +18,6 @@ import { ChineseleftnavComponent } from './chineseleftnav/chineseleftnav.compone
     ChineseRoutingModule
   ],
   declarations: [ChineseComponent, ChineseIndexComponent, ChineseleftnavComponent],
-  providers: [AddplayService]
+  providers: [AddplayService, UserService, AuthGuard]
 })
 export class ChineseModule { }
