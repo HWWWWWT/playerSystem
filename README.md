@@ -18,3 +18,4 @@
 1. 架手脚：angular/cli 。
 2. 后端使用Json-serve模拟api，用于angular2的Http请求并放回数据。
 3. 使用NG-ZORRO当作UI组件库，感谢蚂蚁金服，感谢阿里云。[NG-ZORRO](https://ng.ant.design/#/components/tag)
+4. 项目仅供学习angular用，适用于2以上版本。angularjs请绕道，项目非常基础，包括组件的创建，多级路由的创建，路由拦截，路由懒加载，动画的编写，服务的调用，响应式表单的验证。
